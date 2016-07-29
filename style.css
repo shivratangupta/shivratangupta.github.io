@@ -1,18 +1,20 @@
 * {
 	box-sizing: border-box;
 	margin: 0px;
+	padding: 0px;
 }
 
 body {
 	background: url();
-	background-color: yellow;
+	background-color: #0e0b16;
 }
 
 #navbar {
 	min-height: 50px;
-	background-color: black;
+	background-color: #a239ca;
 	width: 100%;
 	padding: 10px 0px;
+	opacity: .8
 }
 
 a {
@@ -22,12 +24,14 @@ a {
 .links {
 	color: white;
 	font-size: 30px;
-	margin: 0% 6.3%;
+	margin: 0% 6%;
+	padding: 10px 2px;
 }
 
 .links:hover {
 	background-color: white;
 	color: black;
+	
 }
 
 #brand-name {
@@ -40,6 +44,15 @@ h1 {
 	top: 40%;
 	left: 20%;
 	font-size: 100px;
+	color: #e7dfdd;
+}
+
+h2 {
+	position: fixed;
+	top: 60%;
+	left:40%;
+	font-size: 50px;
+	color: dimgray;
 }
 
 
