@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+body {
+	background: url();
+	background-color: yellow;
+}
+
+#navbar {
+	min-height: 50px;
+	background-color: black;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.links {
+	color: white;
+	font-size: 30px;
+	margin: 0% 6.3%;
+}
+
+.links:hover {
+	background-color: white;
+	color: black;
+}
+
+#brand-name {
+	width: 100%;
+	position: relative;
+}
+
+h1 {
+	position: fixed;
+	top: 40%;
+	left: 20%;
+	font-size: 100px;
+}
+
+
