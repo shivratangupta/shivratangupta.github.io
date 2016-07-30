@@ -152,12 +152,52 @@ h2 {
 		margin: 0% 5%;
 		font-size: 20px;
 	}
+
+	h1 {
+		font-size: 65px;
+	}
+
+	h2 {
+		font-size: 19px;
+	}
+
+	.icon {
+		width: 52px;
+		height: 52px;
+		border-radius: 52px;
+		margin: 0% 8.5%;
+	}
 }
 
 @media (min-width: 550px) and (max-width: 731px) {
 	.links {
 		margin: 0% 4.5%;
 		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 55px;
+	}
+
+	h2 {
+		font-size: 15px;
+	}
+
+	.icon {
+		width: 44px;
+		height: 44px;
+		border-radius: 44px;
+		margin: 0% 8%;
+	}
+}
+
+@media (min-width: 550px) and (max-width: 608px) {
+	h1 {
+		font-size: 49.8px;
+	}
+
+	h2 {
+		font-size: 14px;
 	}
 }
 
@@ -166,6 +206,21 @@ h2 {
 		margin: 0% 4%;
 		font-size: 14px;
 	}
+
+	h1 {
+		font-size: 45px;
+	}
+
+	h2 {
+		font-size: 14px;
+	}
+
+	.icon {
+		width: 36px;
+		height: 36px;
+		border-radius: 36px;
+		margin: 0% 8%;
+	}
 }
 
 @media (min-width: 340px) and (max-width: 449px) {
@@ -173,11 +228,50 @@ h2 {
 		margin: 0% 3%;
 		font-size: 12px;
 	}
+
+	h1 {
+		font-size: 45px;
+	}
+
+	h2 {
+		font-size: 14px;
+	}
+
+	.icon {
+		width: 35px;
+		height: 35px;
+		border-radius: 35px;
+		margin: 0% 7%;
+	}
 }
 
 @media (max-width: 339px) {
 	.links {
 		margin: 0% 2%;
 		font-size: 12px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 14px;
+	}
+
+	.icon {
+		width: 33px;
+		height: 33px;
+		border-radius: 33px;
+		margin: 0% 6.5%;
+	}
+}
+
+@media (max-width: 296px) {
+	.icon {
+		width: 31px;
+		height: 31px;
+		border-radius: 31px;
+		margin: 0% 6.5%;
 	}
 }
