@@ -67,7 +67,7 @@ h2 {
 	border: 1px solid white;
 	opacity: .8;
 	float: left;
-	margin: 0px 9%;
+	margin: 0% 9%;
 	background-color: white;
 }
 
@@ -75,3 +75,109 @@ h2 {
 	background-color: blue;
 }
 
+@media (min-width: 1320px) {
+	.links {
+		margin: 0% 6%;
+	}
+}
+
+@media (min-width: 1120px) and (max-width: 1319px) {
+	.links {
+		margin: 0% 6%;
+		font-size: 25px;
+	}
+
+	h1 {
+		font-size: 75px;
+	}
+
+	h2 {
+		font-size: 22.5px;
+	}
+
+	.icon {
+		width: 60px;
+		height: 60px;
+		border-radius: 60px;
+		margin: 0% 9%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+	.links {
+		margin: 0% 5.5%;
+		font-size: 25px;
+	}
+
+	h1 {
+		font-size: 75px;
+	}
+
+	h2 {
+		font-size: 22.5px;
+	}
+
+	.icon {
+		width: 60px;
+		height: 60px;
+		border-radius: 60px;
+		margin: 0% 9%;
+	}
+}
+
+@media (min-width: 892px) and (max-width: 991px) {
+	.links {
+		margin: 0% 5%;
+		font-size: 25px;
+	}
+
+	h1 {
+		font-size: 75px;
+	}
+
+	h2 {
+		font-size: 22.5px;
+	}
+
+	.icon {
+		width: 60px;
+		height: 60px;
+		border-radius: 60px;
+		margin: 0% 9%;
+	}
+}
+
+@media (min-width: 732px) and (max-width: 891px) {
+	.links {
+		margin: 0% 5%;
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 550px) and (max-width: 731px) {
+	.links {
+		margin: 0% 4.5%;
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 450px) and (max-width: 549px) {
+	.links {
+		margin: 0% 4%;
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 340px) and (max-width: 449px) {
+	.links {
+		margin: 0% 3%;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 339px) {
+	.links {
+		margin: 0% 2%;
+		font-size: 12px;
+	}
+}
