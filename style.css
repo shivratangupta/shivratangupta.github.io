@@ -76,6 +76,21 @@ h2 {
 	background-color: blue;
 }
 
+#content {
+	margin-top: 80px;
+}
+
+.projects {
+	width: 48%;
+	height: 200px;
+	background-color: white;
+	text-decoration: none;
+	margin: 1%;
+	opacity: .6;
+	float: left;
+	text-align: center;
+}
+
 @media (min-width: 1320px) {
 	.links {
 		margin: 0% 6%;
