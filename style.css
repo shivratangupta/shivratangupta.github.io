@@ -105,6 +105,13 @@ h2 {
 	color: white;
 }
 
+#shiv-icon {
+	height: 50%;
+	width: 25%;
+	border-radius: 100px;
+	margin: 5% 32.5%;
+}
+
 @media (min-width: 1320px) {
 	.links {
 		margin: 0% 6%;
