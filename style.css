@@ -120,6 +120,19 @@ h2 {
 	text-align: justify;
 }
 
+#contact-content {
+	margin-top: 100px;
+	margin-left: 20px;
+	color: #e7dfdd;
+	font-size: 30px;
+}
+
+.contact-title {
+	height: 300px;
+	width: 200px;
+	float: left;
+}
+
 @media (min-width: 1320px) {
 	.links {
 		margin: 0% 6%;
